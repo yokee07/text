@@ -1,0 +1,380 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-family:"微软雅黑";
+	font-size:16px;
+	list-style:none;
+	text-decoration:none;
+}
+.top{
+	height:36px;
+	background-color:#5D5D58;
+	position:relative;
+}
+.top ul{
+	position:absolute;
+	left:90px;
+}
+.top ul li{
+	float:left;
+}
+.top a:link,.top a:visited{
+    display:block;
+    height:36px;
+	line-height:36px;
+	text-align:center;
+	padding:0 15px;
+	color:#CCC;
+}
+.top a:hover,.top a:active{
+	background-color:#333;
+}
+.top .ad a:link,.top .ad a:visited,.top .ad a:hover,.top .ad a:active{
+	background-color:#FFF;
+	color:#000;
+}
+  /*top部分结束*/
+.logo_wrap{
+   	width:1180px;
+	margin:0 auto;
+	height:80px;
+	clear:left;
+	position:relative;
+}
+.logo_wrap .logo{
+	position:absolute;
+	top:19px;
+	left:0;
+}
+.logo_wrap .logo_right{
+    position:absolute;
+	right:0;
+}
+.logo_wrap .logo_right > span > a:link,.logo_wrap .logo_right > span > a:visited{
+	display:inline-block;
+	margin:31px 10px;
+	font-size:14px;
+	color:#000;
+}
+.logo_wrap .logo_right > span > a:hover,.logo_wrap .logo_right > span > a:active{
+	text-decoration:underline;
+}
+.logo_wrap .logo_right .exe img{
+	vertical-align:middle;
+	margin:0 -3px;
+}
+   /*logo_wrap部分结束*/
+
+.nav_wrap{
+    height:55px;
+	background-color:#F7F7F7;
+	border:1px solid #EEE;
+	position:relative;
+}
+.nav_wrap .nav{
+	position:absolute;
+	left:90px;
+}
+.nav_wrap .nav li{
+	float:left;
+}
+.nav_wrap .nav a:link,.nav_wrap .nav a:visited{
+	display:block;
+	height:55px;
+	line-height:55px;
+	padding:0 22px;
+	color:#000;
+}
+.nav_wrap .nav a:hover,.nav_wrap .nav a:active{
+    color:#C00;
+	border-bottom:2px solid #C00;
+}
+.nav_wrap .nav_1 a:link,.nav_wrap .nav_1 a:visited{
+	background-color:#FFF;
+}
+.nav_wrap .nav_1 a:hover,.nav_wrap .nav_1 a:active{
+	border-bottom:none;
+}
+.nav_wrap .nav_1 img{
+	vertical-align:middle;
+	margin-right:10px;
+}
+.nav_wrap .search form{
+	float:right;
+	margin:10px 100px;
+	background-color:#FFF;
+}
+.nav_wrap .search .search_text{
+	border:none;
+	outline:none;
+	height:35px;
+	line-height:35px;
+	width:150px;
+	padding-left:6px;
+}
+.nav_wrap .search .search_button{
+	border:none;
+	background:url(../image/icon_find.png) no-repeat;
+	width:23px; 
+	height:22px;
+	cursor:pointer;
+	padding:5px 15px;
+	outline:none;
+}
+     /*nav_wrap部分结束*/
+
+ .header #banner{
+ 	width: 1349px;
+ 	height: 540px;
+ 	overflow: hidden;
+ 	position: relative;
+ }
+ #list{
+ 	width: 5396px;
+ 	height: 540px;
+ 	position:absolute;
+ 	z-index: 1;
+ }
+ #list img{
+ 	float: left;
+ }
+ #buttons{
+ 	position: absolute;
+ 	bottom: 30px;
+ 	left: 620px;
+ 	height: 10px;
+ 	width: 200px;
+ 	z-index: 2;
+ }
+ #buttons span{
+ 	cursor: pointer;;
+ 	float: left;
+ 	border: 1px solid #fff;
+ 	width: 13px;
+ 	height: 13px;
+ 	border-radius: 50%;
+ 	background: #666;
+ 	margin-right: 7px;
+ }
+ #buttons .on{
+ 	background: #fff;
+ }
+ .arrow{
+ 	cursor: pointer;
+ 	display: none;
+ 	line-height: 100px;
+ 	text-align: center;
+ 	font-size: 96px;
+ 	font-weight: bold;
+ 	width: 100px;
+ 	height: 100px;
+ 	position: absolute;
+ 	top: 200px;
+ 	z-index: 2;
+ 	color: rgba(0,0,0,.1);
+ }
+ .arrow:hover{
+ 	color: rgba(0,0,0,.2);
+ }
+ #banner:hover .arrow{
+ 	display: block;
+ }
+ #prev{
+ 	left: 20px;
+ }
+ #next{
+ 	right: 20px;
+ }
+      /* header部分结束*/
+.contains{
+	width:1170px;
+	margin:16px auto;
+}
+.info{
+	width:1170px;
+	height:60px;
+	background-color:#F7F7F7;
+	position:relative;
+}
+.info_xs{
+	position:absolute;
+	left:0;
+}
+#info_ns{
+	position:absolute;
+	left:150px;
+	width:940px;
+	height:60px;
+	overflow:hidden;
+}
+#info_ns ul a:link,#info_ns ul a:visited{
+	height:60px;
+	line-height:60px;
+	color:#000;
+}
+#info_ns ul a:hover,#info_ns ul a:active{
+	text-decoration:underline;
+}
+.info_bs{
+	position:absolute;
+	right:40px;
+	margin-top:12px;
+}
+.info_bs span{
+	display:block;
+	cursor:pointer;
+}
+      /*新闻滚动条部分结束*/	
+      
+	
+.content{
+	width:1170px;
+	height:400px;
+	margin-top:16px;
+}
+.content_1{
+	width:370px;
+	height:400px;
+	float:left;
+	margin-right:30px;
+}
+#content_1{
+	margin-right:0;
+}
+.content .content_1_2{
+	width:370px;
+	height:110px;
+	margin-top:6px;
+}
+.content .content_1_2 a:link,.content .content_1_2 a:visited{
+	height:35px;
+	line-height:35px;
+	color:#000;
+	font-size:18px;
+	font-weight:normal;
+}
+.content .content_1_2 a:hover,.content .content_1_2 a:active{
+	text-decoration:underline;
+}
+.content .content_1_2 p{
+	height:30px;
+	line-height:30px;
+}
+     /*contains部分结束*/
+.footer{
+	height:670px;
+}
+.footer .wrap{
+	width:1170px;
+	margin:0 auto;
+}
+.footer .a_show{
+	height:255px;
+	background-color:#F5F5F5;
+}
+.footer .msg{
+	height:415px;
+	background-color:#272727;
+	clear:left;
+}
+ .footer .a_show_1 a:link,.footer .a_show_1 a:visited{
+	height:70px;
+	line-height:70px;
+	color:#000;
+	font-size:24px;
+	font-weight:500;
+	padding-left:533px;
+}
+.footer .a_show_1 a:hover,.footer .a_show_1 a:active,.a_show .content_1 h3 a:hover,.a_show .content_1 h3 a:active,.footer .left dd a:hover,.footer .left dd a:active,.footer .tm span > a:hover,.footer .tm span > a:active{
+	text-decoration:underline;
+}
+.main_show{
+	width:inherit;
+	height:185px;
+}
+.content_1{
+	height:185px;
+}
+.a_show .content_1 h3 a:link,.a_show .content_1 h3 a:visited{
+	color:#000;
+	font-size:20px;
+	font-weight:300;
+}
+.footer .a_show_2_1{
+	margin-top:15px;
+}
+.footer .a_show_2_1 img{
+	float:left;
+    margin-right:10px;
+}
+.footer .a_show_p{
+	float:left;
+	width:240px;
+}
+.footer .a_show_p p{
+	margin:7px 0;
+	font-weight:100;
+	color:#363636;
+}
+.footer .msg{
+	height:415px;
+	background-color:#272727;
+	clear:left;
+}
+.footer .msg .left{
+    width:800px;
+	float:left;
+}
+.footer .left dl{
+	float:left;
+	width:190px;
+	margin-top:30px;
+	padding:10px 0;
+}
+.footer .left dt{
+	font-size:18px;
+	color:#FFF;
+	font-weight:bold;
+	margin-bottom:16px;
+}
+.footer .left dd{
+	margin-bottom:13px;
+}
+.footer .left dd a:link,.footer .left dd a:visited{
+	color:#FFF;
+}
+.footer .msg .right{
+	width:370px;
+	float:left;
+}
+.footer .right img{
+	padding-top:20px;
+}
+#mm{
+	margin-top:20px;
+}
+.footer .lm .right span img{
+	padding-right:15px;
+}
+.footer .lm .right p{
+	margin-top:20px;
+	font-size:16px;
+	color:#FFF;
+}
+.footer .tm .left,.footer .tm .right{
+	margin-top:7px;
+}
+.footer .tm .left span{
+	font-size:13px;
+	color:#FFF;
+}
+.footer .tm span > a:link,.footer .tm span > a:visited{
+	color:#FFF;
+	font-size:14px;
+}
+.footer .tm span{
+	color:#FFF;
+	margin:0 4px;
+}
